@@ -1,0 +1,339 @@
+.bg-img {
+  /* The image used */
+  background-image: url("imgs/aidan-hancock-8RU4OuA6Yug-unsplash.png");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: right;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+}
+
+.HOME {
+  color: #10C9C3;
+
+}
+/* Navbar links */
+.topnav a {
+  float: right;
+  color: #141414;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'montserrat';
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h2, h6 {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'montserrat';
+  transform: bold;
+}
+
+h6 {
+  font-family: 'nunito sans'
+}
+
+.signature {
+  text-align: center;
+}
+
+.container-fluid-3 {
+  background-color: #f9f9f9;
+}
+
+p {
+  font-family: 'montserrat';
+  transform: bold;
+  font-size: 25px;
+  padding-left: 100px;
+}
+
+.container-fluid-4 {
+  background-color: #10C9C3;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container-2 {
+  position: center;
+  width: auto;
+}
+
+.container-3 {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+ }
+ 
+ img {
+   max-width: 100%;
+   max-height:100%;
+ }
+
+ .container-fluid-5 {
+  background-color: #F5F5F5;
+ }
+
+ .container-fluid-6 {
+  text-align: center;
+ }
+
+ .container-fluid-7 {
+  text-align: center;
+  background-color: #10C9C3;
+ }
+
+ .container-fluid-8 {
+  text-align: center;
+ }
+
+ .form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 70%;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F5F5F5;
+}
+.form-style-6 h1{
+	background: #10C9C3;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #F5F5F5;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #10C9C3;
+	padding: 3%;
+	border: 1px solid #10C9C3;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 50%;
+	padding: 3%;
+  text-align: center;
+	background: #10C9C3;
+	border-bottom: 2px solid #10C9C3;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+  font-family: 'montserrat';
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #10C9C3;
+}
+
+.container-fluid-9 {
+  background-color: #F5F5F5;
+}
+
+.container-fluid-10 {
+  background-color: #141414;
+  color: #bbbbbb;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Nunito Sans';
+}
+
+header {
+  font-size: 20px;
+  color: white
+}
+
+text {
+  font-size: 15px;
+  font-family: 'Nunito Sans';
+}
+
+text2 {
+  color: white;
+  font-family: 'montserrat'; 
+  font-size: 20px;
+}
+
+text3 {
+  color: white;
+  font-family: 'montserrat'; 
+  font-size: 10px;
+}
+
+.container-fluid-7 {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+h7 {
+  font-family: 'nunito sans';
+  color: rgb(87, 87, 87);
+}
+
+h5 {
+  font-family: 'montserrat';
+  text-transform: bold;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: 80%;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text1 {
+  padding-left: 10px;
+}
+
+h9 {
+  color: white;
+  font-family: 'montserrat';
+  font-size: 15px;
+}
+
+h8 {
+  color: white;
+  font-family: 'montserrat';
+  font-size: 20px;
+}
+
+h10 {
+  font-family: "montserrat";
+  font-size: 30px;
+  text-transform: bold;
+}
+
+h11 {
+  font-family: 'montserrat';
+}
+
+.button {
+  background-color: #10C9C3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'montserrat';
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.container-fluid-1 {
+  padding-left: 70%;
+}
+
+.topleftlogo {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.progressimage {
+  padding-left: 100px;
+}
+
+.submitbutton {
+  text-align: center;
+}
